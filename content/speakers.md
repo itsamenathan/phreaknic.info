@@ -168,6 +168,8 @@ Mastodon: @rtward@mastodon.social
 
 **Talk:** One TTP, Infinite Fails: Why You're Playing Checkers in a Chess Threatscape  
 
+Ever wondered how different red-team execution methods change what you see and don’t for the same TTP? Built detections that worked in one assessment, but fail in the next? This talk walks through how small changes in red team execution methodology turn reliable detections into blind spots and offers a critical analysis of detection methodology from beginner level to more advanced detection. However, even with the best fixes there are still gremlins that cause other failures.
+
 **Bio:** "Samantha has spent the last eight years at the forefront of cybersecurity, with a focus on understanding and countering offensive tradecraft. Her work is driven by the ever-evolving threat landscape, translating insights from offensive tactics into actionable defensive strategies. With experience spanning incident response, detection engineering, purple teaming, and adversary emulation, she has designed automation workflows, led investigations into complex security incidents, and developed resilient detections that strengthen organizational defenses. She brings a practitioner’s perspective on how organizations are compromised and, more importantly, how to effectively mitigate risk. 
 When she’s not hacking the hackers, Hollow has ran the local CitySec NashSec for last 7 year to strengthen InfoSec community for new comers and OGs.  She likes gaming, sipping lattes, devouring everything from philosophy and fantasy to internet culture, and scheming ideas she can’t wait to turn into something epic. Creative, curious, and just a little mischievous, she brings the same energy to cybersecurity as she does to life."
 

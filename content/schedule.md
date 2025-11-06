@@ -21,7 +21,8 @@ title = "Schedule"
 | 5:30 PM | 🌭 Dinner | |
 | 7:00 PM | [Elonka](/speakers/#elonka) | Frozen Signals: Collinson, Franklin & the Lost Arctic Fleet (1840–1860) |
 | 8:00 PM | [Mog](/speakers/#mog) | The Singularity of Data: Navigating the Dark Patterns of the Algorithmic Panopticon |
-| 9:00 PM | 🍿 Board Games / Hangout |
+| 9:00 PM | Remembering our friend NotLarry |
+| 9:30 PM | 🍿 Board Games / Hangout |
 
 ## Saturday - Nov 15th
 
@@ -40,5 +41,5 @@ title = "Schedule"
 | 5:30 PM | 🌭 Dinner | |
 | 7:00 PM | [Elonka](/speakers/#elonka) | Kryptos: The CIA's (not‑so) Enduring Enigma |
 | 8:00 PM | 🕹️ The Non-Infringing PhreakNIC Game Show! |
-| 9:00 PM | 🎬 Closing Ceremonies | |
-| 9:15 PM | ⚡️ Lightning Talks | |
+| 9:00 PM | 🎬 Closing Ceremonies |
+| 9:15 PM | ⚡️ Lightning Talks |
