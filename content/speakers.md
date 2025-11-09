@@ -42,14 +42,6 @@ Outside of work, Cori is focused on creating communities where hackers can share
 
 X: @corg_e
 
-## dusty {#dusty}
-
-**Talk:** Vibe-coding w/ robots: Claude, ChatGPT, and Codex Agents
-
-**Bio:** I am a meat popsicle.  
-
-Website: https://dusty.wtf
-
 ## Elonka {#elonka}
 
 **Talk:** Frozen Signals: Collinson, Franklin & the Lost Arctic Fleet (1840–1860)
@@ -90,6 +82,14 @@ Or did that even happen?  Come and learn how large language models can be subver
 
 **Bio:** Joe Cathell is an accomplished professional with over 15 years of experience in cybersecurity. As a Cybersecurity Engineer at Copeland, his multifaceted expertise enables him to dissect hardware, firmware, and applications that power everything from corporate infrastructure to IoT and industrial control systems.
 In addition, Joe is a prominent figure in the St. Louis cybersecurity community. He serves as the dedicated host and organizer of the STL2600 and DC314 meetings and is a founding member and current Secretary of Arch Reactor, the renowned St. Louis hackerspace.
+
+Bluesky: https://bsky.app/profile/null0perat0r.bsky.social
+
+## Josh Summitt {#josh-summitt}
+
+**Talk:** Vibe coding is here to stay whether security teams like it or not. Developers are pumping out AI-assisted code faster than ever. As with all new technolgies, security is an afterthought. Generating massive amounts of code so quickly will inevitably create security gaps large enough to drive a dump truck through. This talk cuts through the AI slop to show you how to embrace the chaos without taking away your developer's new toys. Vibe coding done right can even be a positive win for the security team.
+
+**Bio:** Josh is an application security expert with 18+ years of experience driving enterprise security initiatives, leading cross-functional teams, and delivering strategic security solutions. He's founded two security startups while maintaining deep technical expertise in penetration testing, secure code review, and vulnerability remediation across web, mobile, and client applications. Josh also has a commitment to  advancing the cybersecurity community through open-source security tool development and thought leadership.
 
 Bluesky: https://bsky.app/profile/null0perat0r.bsky.social
 

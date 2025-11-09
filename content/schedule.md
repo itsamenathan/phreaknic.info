@@ -37,7 +37,7 @@ title = "Schedule"
 | 2:00 PM | [r0nk](/speakers/#r0nk) | Emergence: the rebellion against thermodynamics. |
 | 3:00 PM | [Bonnie](/speakers/#bonnie) | Recipes for Ruin - Cooking the Books and How to Save the Meal |
 | 4:00 PM | [Joe Cathell](/speakers/#joe-cathell) | It started with a work assignment. |
-| 5:00 PM | [dusty](/speakers/#dusty) | Vibe-coding w/ robots: Claude, ChatGPT, and Codex Agents |
+| 5:00 PM | [Josh Summitt](/speakers/#josh-summitt) | You're Ruining my Vibe |
 | 5:30 PM | 🌭 Dinner | |
 | 7:00 PM | [Elonka](/speakers/#elonka) | Kryptos: The CIA's (not‑so) Enduring Enigma |
 | 8:00 PM | 🕹️ The Non-Infringing PhreakNIC Game Show! |
