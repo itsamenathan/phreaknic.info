@@ -1,49 +1,22 @@
 baseURL = 'https://phreaknic.info'
 languageCode = 'en-us'
 title = 'PHREAKNIC 26'
-#theme = 'hugo-theme-hello-4s3ti'
 theme = 'hugo-theme-m10c'
-#theme = 'poison-master'
 
 [pagination]
   pagerSize = 8
 
 [menu]
-  #[[menu.main]]
-  #  identifier = "home"
-  #  name = "Home"
-  #  url = "/"
-  #  weight = 1
-  #[[menu.main]]
-  #  identifier = "tags"
-  #  name = "Tags"
-  #  url = "/tags/"
-  #  weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
   [[menu.main]]
     identifier = "Schedule"
     name = "Schedule"
     url = "/schedule/"
-    weight = 2
-  #[[menu.main]]
-  #  identifier = "Speak"
-  #  name = "Speak"
-  #  url = "https://docs.google.com/forms/d/e/1FAIpQLSfbCwlhnVkiTt55ZzluP4VuBKcv0_joB5RAh5FVz_WuQm-FDA/viewform"
-  #  weight = 4
-  #[[menu.main]]
-  #  identifier = "Volunteer"
-  #  name = "Volunteer"
-  #  url = "https://docs.google.com/forms/d/e/1FAIpQLScTLRculTZZ3m9yYZMHwk7_FFW0WYaTiKvsCvYypt2BUFw0yA/viewform"
-  #  weight = 5
-  [[menu.main]]
-    identifier = "Preregister"
-    name = "Preregister"
-    url = "https://phreaknic.square.site/"
     weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
 
 [params]
   avatar = "phreaknic-26-logo.png"
@@ -53,10 +26,6 @@ theme = 'hugo-theme-m10c'
   author = "Phreaknic Staff"
   description = "November 14-15, 2025 Murfreesboro, TN"
   menu_item_separator = " - "
-  #[[params.social]]
-  #  icon = "brand-github"
-  #  name = "Github"
-  #  url = "https://github.com/gohugoio"
   [[params.social]]
     icon = "brand-x"
     name = "X"
