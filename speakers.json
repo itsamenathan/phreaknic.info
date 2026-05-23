@@ -1,0 +1,128 @@
+[
+  {
+    "id": "cipher-raven",
+    "name": "Cipher Raven",
+    "topic": "Keynote: The Death of Trust in Digital Systems",
+    "initials": "CR",
+    "bio": [
+      "Cipher Raven is a cryptographer, author, and one of the most feared voices in digital security. Their book \"Broken Foundations\" laid bare the systemic vulnerabilities at the heart of every trust-based digital system we rely on — from PKI to zero-knowledge proofs.",
+      "With 15 years of experience spanning academia, government advisory boards, and underground research collectives, Raven has consistently demonstrated how the math we trust can be bent, broken, or outright weaponized. Their keynote this year will walk through recent real-world collapses of digital trust and what it means for the future of encryption.",
+      "When not tearing down cryptographic assumptions, Raven publishes on quantum-resistant protocols and leads an open-source initiative for decentralized identity systems."
+    ],
+    "twitter": "https://twitter.com/cipherraven",
+    "github": "https://github.com/cipherraven",
+    "website": "https://cipherraven.dev"
+  },
+  {
+    "id": "nullbyte",
+    "name": "NullByte",
+    "topic": "Reverse Engineering Proprietary Protocols",
+    "initials": "NB",
+    "bio": [
+      "NullByte is an embedded systems researcher who has spent over a decade extracting, analyzing, and reverse-engineering firmware from thousands of commercial and industrial devices. They specialize in extracting proprietary communication protocols from IoT gadgets, medical devices, and automotive ECUs.",
+      "NullByte has presented at DEF CON, Black Hat, and countless underground security meetups. Their toolkit for automated firmware analysis — the NullBreaker suite — is widely used in both academic research and professional penetration testing.",
+      "Their talk will cover hands-on techniques for protocol recovery, including side-channel analysis, bus snooping, and fuzzing strategies that reveal hidden communication channels in supposedly closed-source hardware."
+    ],
+    "twitter": "https://twitter.com/nullbyte_sec",
+    "github": "https://github.com/nullbyte-sec",
+    "website": "https://nullbyte.io"
+  },
+  {
+    "id": "spectrum-ghost",
+    "name": "Spectrum Ghost",
+    "topic": "LoRa and Long-Range Wireless Exploitation",
+    "initials": "SG",
+    "bio": [
+      "Spectrum Ghost is a radio frequency security expert with deep expertise in spread spectrum communications, cognitive radio, and the growing landscape of long-range IoT protocols. They have demonstrated live attacks on LoRa, Sigfox, and NB-IoT deployments across multiple continents.",
+      "Ghost operates a private RF monitoring network that tracks spectrum usage patterns and has identified thousands of unauthorized transmissions on industrial control frequencies. Their research into protocol-level vulnerabilities in LPWAN technologies has been cited by standards bodies and security researchers worldwide.",
+      "This talk will walk through real attack demonstrations, from jamming and replay attacks to full protocol exploitation, and discuss the emerging defenses being built into next-generation LPWAN stacks."
+    ],
+    "twitter": "https://twitter.com/spectrumghost",
+    "github": "https://github.com/spectrumghost",
+    "website": "https://spectrumghost.net"
+  },
+  {
+    "id": "zero-cool",
+    "name": "Zero Cool",
+    "topic": "Building Your Own SDR from Scratch",
+    "initials": "ZC",
+    "bio": [
+      "Zero Cool is an FPGA wizard, software-defined radio enthusiast, and one of the most respected hardware hackers in the underground community. They design and build custom SDR hardware from the ground up — starting with bare silicon and ending with fully functional radio platforms.",
+      "Their custom FPGA-based SDR designs have been featured in academic papers, open-source hardware repositories, and several notable security demonstrations at conferences around the world. Zero Cool also runs workshops teaching others how to build their own radio equipment.",
+      "The talk is a hands-on deep dive into the design, fabrication, and programming of custom SDR hardware. Attendees will learn about ADC/DAC selection, FPGA pipeline design, GNU Radio integration, and the art of squeezing maximum performance out of commodity silicon."
+    ],
+    "twitter": "https://twitter.com/zerocool_sdr",
+    "github": "https://github.com/zerocool-sdr",
+    "website": "https://zerocool.dev"
+  },
+  {
+    "id": "phantom-packet",
+    "name": "Phantom Packet",
+    "topic": "Social Engineering: The Human Firewall",
+    "initials": "PP",
+    "bio": [
+      "Phantom Packet is a penetration tester and social engineering specialist who has spent years mastering the art of manipulating the human element in security. They have successfully breached Fortune 500 companies using nothing but charm, a USB drive, and an encyclopedic knowledge of human psychology.",
+      "Phantom has led red team operations that spanned physical intrusion, vishing, smishing, QR-code phishing, and deepfake-based impersonation. Their work has been instrumental in helping organizations understand that the weakest link in any security architecture is usually the person on the other end of the line.",
+      "This talk covers the full spectrum of social engineering techniques, from pre-texting and pretext development to advanced impersonation strategies. Phantom will also discuss the ethical boundaries of social engineering research and how to use these techniques defensively."
+    ],
+    "twitter": "https://twitter.com/phantom_packet",
+    "github": "https://github.com/phantom-packet",
+    "website": "https://phantompacket.com"
+  },
+  {
+    "id": "binary-monk",
+    "name": "Binary Monk",
+    "topic": "Exploit Development: Bypassing Modern Mitigations",
+    "initials": "BM",
+    "bio": [
+      "Binary Monk is a kernel-level exploit researcher who has repeatedly demonstrated that no mitigation is impenetrable. They have bypassed ASLR, DEP, CFG, CET, and other modern memory safety protections on Windows, Linux, and macOS — publishing tools and techniques that have reshaped the exploit development landscape.",
+      "Monk's research has led to multiple CVEs in widely-used operating system components and has influenced the development of new hardening features. They are known for their elegant, minimal exploits that use creative combinations of seemingly minor vulnerabilities to achieve full code execution.",
+      "This talk will walk through recent exploit chains that bypass modern mitigations, with deep dives into kernel exploitation techniques, user-space ROP, and the emerging role of AI-assisted vulnerability discovery. Attendees should have a solid understanding of binary exploitation fundamentals."
+    ],
+    "twitter": "https://twitter.com/binary_monk",
+    "github": "https://github.com/binary-monk",
+    "website": "https://binarymonk.org"
+  },
+  {
+    "id": "dark-signal",
+    "name": "Dark Signal",
+    "topic": "IoT Security: From Firmware to Flame",
+    "initials": "DS",
+    "bio": [
+      "Dark Signal is a malware reverse engineer and IoT security specialist with an extensive track record of analyzing firmware from thousands of commercial and industrial devices. They have tracked supply chain compromises, identified backdoors in embedded software, and contributed to the disclosure of critical vulnerabilities in products used by governments and corporations.",
+      "Their work has drawn parallels between modern IoT malware and the legendary Flame virus, tracing common TTPs across decades of embedded malware evolution. Dark Signal maintains one of the most comprehensive public firmware analysis databases.",
+      "This talk covers the full attack surface of IoT devices — from physical port enumeration and chip-off forensic extraction to dynamic malware analysis in emulated firmware environments. Dark Signal will also discuss the growing threat of firmware supply chain attacks and what organizations can do to protect themselves."
+    ],
+    "twitter": "https://twitter.com/dark_signal_sec",
+    "github": "https://github.com/dark-signal",
+    "website": "https://darksignal.io"
+  },
+  {
+    "id": "echo-vector",
+    "name": "Echo Vector",
+    "topic": "Steganography: Hiding Data in Plain Sight",
+    "initials": "EV",
+    "bio": [
+      "Echo Vector is an information theory researcher and steganography artist who operates at the intersection of mathematics, creativity, and covert communications. They develop advanced techniques for hiding data in audio, images, video, and even network traffic — blending academic rigor with artistic innovation.",
+      "Vector's work has been published in top security conferences and journals, but they are equally known for their creative projects that push the boundaries of what is possible with information hiding. Their steganographic art installations have been exhibited at digital art festivals worldwide.",
+      "This talk covers the latest advances in steganographic techniques, from LSB embedding and DCT-based methods to deep learning-driven approaches. Vector will also demonstrate practical tools and walk through real-world use cases, including secure whistleblowing channels and covert data exfiltration."
+    ],
+    "twitter": "https://twitter.com/echo_vector",
+    "github": "https://github.com/echo-vector",
+    "website": "https://echovector.art"
+  },
+  {
+    "id": "neon-oracle",
+    "name": "Neon Oracle",
+    "topic": "Keynote: AI-Powered Attacks and How to Defend",
+    "initials": "NO",
+    "bio": [
+      "Neon Oracle is an AI security researcher working at the frontier of adversarial machine learning. They have demonstrated model extraction attacks, trained adversarial examples that fool state-of-the-art vision models, and crafted defenses that have become industry standards for robust ML deployment.",
+      "Oracle leads a research lab focused on the security implications of increasingly powerful AI systems. Their work spans adversarial attacks on LLMs, data poisoning, membership inference, and the development of provably robust ML architectures. Oracle has been recognized with multiple best paper awards and serves on advisory boards for several AI safety initiatives.",
+      "This keynote will explore the dual-use nature of AI — how the same techniques that power breakthrough research can also be weaponized by adversaries. Oracle will walk through recent attack demonstrations, discuss the current state of AI defense research, and present a roadmap for building AI systems that are secure by design."
+    ],
+    "twitter": "https://twitter.com/neon_oracle",
+    "github": "https://github.com/neon-oracle",
+    "website": "https://neonor.academy"
+  }
+]

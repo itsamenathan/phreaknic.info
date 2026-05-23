@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>phreaknic</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scanline-overlay"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-cyan">phreak</span><span class="logo-magenta">nic</span>
+    </div>
+    <div class="header-right">
+      <span class="countdown" id="countdown"></span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- LEFT SIDEBAR NAV -->
+    <nav class="sidebar">
+      <div class="sidebar-section">
+        <h3 class="sidebar-label">// navigate</h3>
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link active" data-view="news"><span class="nav-icon">◈</span><span class="nav-label">News</span></a></li>
+          <li><a href="#" class="nav-link" data-view="schedule"><span class="nav-icon">◈</span><span class="nav-label">Schedule</span></a></li>
+          <li><a href="#" class="nav-link" data-view="speakers"><span class="nav-icon">◈</span><span class="nav-label">Speakers</span></a></li>
+        </ul>
+      </div>
+        <div class="sidebar-section sidebar-footer">
+        <p class="footer-text">
+          <span class="status-dot"></span><span class="footer-label">SYSTEM ONLINE</span><br>
+          <span class="timestamp"></span>
+        </p>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+
+      <!-- NEWS VIEW -->
+      <section id="view-news" class="view active">
+        <div class="view-header">
+          <h1 class="view-title">/// NEWS</h1>
+          <div class="view-divider"></div>
+        </div>
+
+        <article class="blog-post">
+          <div class="post-meta">
+            <span class="post-date">2026-05-03</span>
+            <span class="post-tag tag-announcement">ANNOUNCEMENT</span>
+          </div>
+          <h2 class="post-title">Who's Ready?</h2>
+          <p class="post-excerpt">
+            brimstone here — talk submissions, volunteer signups, and room bookings are open.
+            Get your talk in, help out on event day, spread the word to sister conferences,
+            and book your stay before the November weekend.
+          </p>
+          <div class="post-body">
+            <p><i>Benthemeek asked me to post some news so pitter patter.</i></p>
+            <p><span class="priority-label">First priority:</span>
+              <a href="https://forms.gle/nsm6XnfNVutK9PrE7" class="post-link" target="_blank" rel="noopener">submit a talk</a> —
+              we always need more talks, always.
+            </p>
+            <p><span class="priority-label">Second priority:</span>
+              <a href="https://forms.gle/Dry5uYaenMZ9PfLj8" class="post-link" target="_blank" rel="noopener">volunteer</a> —
+              we need volunteers day of to help make the magic happen.
+            </p>
+            <p><span class="priority-label">Third priority:</span>
+              spread the word. There's a number of sister conferences happening between now and then
+              so get out there and make some new friends (and get them to submit a talk!):
+            </p>
+            <ul class="topic-list">
+              <li><a href="https://bsidesmemphis.org/" class="post-link" target="_blank" rel="noopener">Bsides Memphis — October 3rd</a></li>
+              <li><a href="https://bsidesatl.info/" class="post-link" target="_blank" rel="noopener">Bsides Atlanta — October 3rd</a></li>
+            </ul>
+            <p>
+              I know you're itching to get the party started and so am I, so <em>after you <a href="https://forms.gle/nsm6XnfNVutK9PrE7" class="post-link" target="_blank" rel="noopener">submit a talk</a></em>:
+              <a href="https://www.choicehotels.com/reservations/groups/WO48U6" class="post-link" target="_blank" rel="noopener">book a room with our room code</a>.
+            </p>
+
+            <p class="faq-heading">// Frequently Asked Questions</p>
+
+            <p class="faq-question">What is PhreakNIC?</p>
+            <p>
+              PhreakNIC is a volunteer-led <a href="https://en.wikipedia.org/wiki/Hacker" class="post-link" target="_blank" rel="noopener">hacker</a> conference run by an active
+              nonprofit called the Nashville2600. Our total attendance typically runs under 200 folks —
+              so we are small enough for you to meet and have a conversation with almost everyone.
+            </p>
+
+            <p class="faq-question">When is PhreakNIC?</p>
+            <p>
+              PhreakNIC takes place in late fall. Since returning after COVID19, we've typically held it
+              on the first or second weekend of November. The conference usually starts Friday at 9:00 AM
+              and ends Saturday around 9:00 PM. If you'd like to help out outside of those times, you are
+              welcome to assist with setup on Thursday night and teardown on Sunday morning.
+            </p>
+
+            <p class="faq-question">Where is PhreakNIC?</p>
+            <p>
+              PhreakNIC is held at the <a href="https://www.choicehotels.com/reservations/groups/WO48U6" class="post-link" target="_blank" rel="noopener">Clarion Inn</a>
+              in Murfreesboro, TN (about 30 minutes outside Nashville).
+            </p>
+
+            <p class="faq-question">Why should I come to PhreakNIC?</p>
+            <p>
+              PhreakNIC is all about connection and community. Come hear about other people's passion
+              projects — or share your own. In addition to 18+ hours of talks, there's a world-class
+              Capture the Flag (CTF) event, usually some form of hardware hacking, and (most importantly)
+              interesting people who share a passion for technology. We purposely build in lunch and dinner
+              breaks with no programming so that attendees can go have a meal or hang out together.
+            </p>
+
+            <p class="faq-question">Is my family welcome at PhreakNIC?</p>
+            <p>
+              Yes — some attendees bring their families. Since COVID, we haven't offered child-specific
+              programming. Children must always be accompanied by their parent/guardian (or other responsible
+              adult) and may not be left unattended. Please note: At the conference you may encounter language
+              and topics that would typically receive a PG-13 rating in a movie.
+            </p>
+
+            <p class="faq-question">Is there a way I can reduce the cost of PhreakNIC?</p>
+
+            <p class="faq-subheading">Students:</p>
+            <p>
+              If you're a student with a valid student ID, we try to keep admission very affordable
+              (typically $5–$10 at the door). Note: student admission may not receive the same S.W.A.G.
+              as full-price attendees, since we need to cover costs.
+            </p>
+
+            <p class="faq-subheading">Volunteer:</p>
+            <ul class="topic-list">
+              <li>4 hours earns a free T-shirt</li>
+              <li>8 hours earns free admission</li>
+              <li>12 hours earns both</li>
+            </ul>
+            <p>
+              Volunteers might help record talks, keep an eye on conference space and check badges,
+              or help at registration. <a href="https://forms.gle/Dry5uYaenMZ9PfLj8" class="post-link" target="_blank" rel="noopener">Volunteer HERE</a>.
+            </p>
+
+            <p class="faq-subheading">Speak:</p>
+            <p>
+              If you <a href="https://forms.gle/nsm6XnfNVutK9PrE7" class="post-link" target="_blank" rel="noopener">submit a talk</a>
+              and it's accepted, you'll also receive free admission.
+            </p>
+
+            <p class="faq-subheading">Share a room or ride:</p>
+            <p>
+              You can ask in the
+              <a href="https://discord.gg/mFFa9RAFff" class="post-link" target="_blank" rel="noopener">PhreakNIC Discord</a>
+              if anyone wants to share a room or carpool to this year.
+            </p>
+
+            <p class="faq-question">I want to sponsor PhreakNIC. What are the benefits, and how do I do that?</p>
+            <p>
+              Thank you for your interest! We work to keep PhreakNIC from turning into vendor pitches.
+              If you or your organization would like to provide 250 S.W.A.G. items for attendees, or
+              donate $300 or more, we'd be happy to include your logo on all
+              <a href="https://www.youtube.com/playlist?list=PL99hCfcp7JSxdBIznDd2QbbK9auOsi4MF" class="post-link" target="_blank" rel="noopener">PhreakNIC videos</a>
+              posted for the year. You/Your company will also be publicly thanked during the opening and
+              closing ceremonies. Please contact us at
+              <a href="mailto:info@nashville2600.org" class="post-link">info@nashville2600.org</a>
+              to discuss details.
+            </p>
+
+            <p class="faq-question">What was PhreakNIC like in past years?</p>
+            <p>Here's the website archive for past years:</p>
+            <ul class="topic-list">
+              <li><a href="https://archive.phreaknic.info/pn26/" class="post-link" target="_blank" rel="noopener">PhreakNIC 26</a></li>
+              <li><a href="https://archive.phreaknic.info/pn25/" class="post-link" target="_blank" rel="noopener">PhreakNIC 25</a></li>
+              <li><a href="http://archive.phreaknic.info/pn23/" class="post-link" target="_blank" rel="noopener">PhreakNIC 24</a></li>
+              <li><a href="http://archive.phreaknic.info/pn23/" class="post-link" target="_blank" rel="noopener">PhreakNIC 23</a></li>
+              <li><a href="http://archive.phreaknic.info/pn22/" class="post-link" target="_blank" rel="noopener">PhreakNIC 22</a></li>
+              <li><a href="http://archive.phreaknic.info/pn21/" class="post-link" target="_blank" rel="noopener">PhreakNIC 21</a></li>
+              <li><a href="http://archive.phreaknic.info/pn20/" class="post-link" target="_blank" rel="noopener">PhreakNIC 20</a></li>
+              <li><a href="http://archive.phreaknic.info/pn19/" class="post-link" target="_blank" rel="noopener">PhreakNIC 19</a></li>
+              <li><a href="http://archive.phreaknic.info/pn18/" class="post-link" target="_blank" rel="noopener">PhreakNIC 18</a></li>
+              <li>PhreakNIC 17</li>
+              <li><a href="http://archive.phreaknic.info/pn16/" class="post-link" target="_blank" rel="noopener">PhreakNIC 16</a></li>
+              <li><a href="http://archive.phreaknic.info/pn15/" class="post-link" target="_blank" rel="noopener">PhreakNIC 15</a></li>
+              <li><a href="http://archive.phreaknic.info/pn14/" class="post-link" target="_blank" rel="noopener">PhreakNIC 14</a></li>
+              <li><a href="http://archive.phreaknic.info/pn13/" class="post-link" target="_blank" rel="noopener">PhreakNIC 13</a></li>
+              <li><a href="http://archive.phreaknic.info/pn12/" class="post-link" target="_blank" rel="noopener">PhreakNIC 12</a></li>
+              <li><a href="http://archive.phreaknic.info/pn11/" class="post-link" target="_blank" rel="noopener">PhreakNIC 11</a></li>
+              <li><a href="http://archive.phreaknic.info/pn10/" class="post-link" target="_blank" rel="noopener">PhreakNIC 10</a></li>
+              <li><a href="http://archive.phreaknic.info/pn9/" class="post-link" target="_blank" rel="noopener">PhreakNIC 9</a></li>
+              <li>PhreakNIC 8 was lost to the sands of time.</li>
+              <li><a href="http://archive.phreaknic.info/pn7/" class="post-link" target="_blank" rel="noopener">PhreakNIC 7</a></li>
+              <li><a href="http://archive.phreaknic.info/pn6/" class="post-link" target="_blank" rel="noopener">PhreakNIC 6</a></li>
+              <li><a href="http://archive.phreaknic.info/pn5/" class="post-link" target="_blank" rel="noopener">PhreakNIC 5</a></li>
+              <li><a href="http://archive.phreaknic.info/pn4/" class="post-link" target="_blank" rel="noopener">PhreakNIC 4</a></li>
+              <li><a href="http://archive.phreaknic.info/pn3/" class="post-link" target="_blank" rel="noopener">PhreakNIC 3</a></li>
+            </ul>
+          </div>
+        </article>
+
+      </section>
+
+      <!-- SCHEDULE VIEW -->
+      <section id="view-schedule" class="view">
+        <div class="view-header">
+          <h1 class="view-title">/// SCHEDULE</h1>
+          <div class="view-divider"></div>
+        </div>
+
+        <div id="schedule-container"></div>
+      </section>
+
+      <!-- SPEAKERS VIEW -->
+      <section id="view-speakers" class="view">
+        <div class="view-header">
+          <h1 class="view-title">/// SPEAKERS</h1>
+          <div class="view-divider"></div>
+        </div>
+
+        <div class="speakers-grid" id="speakers-grid"></div>
+      </section>
+
+    </main>
+  </div>
+
+ <!-- TOPIC MODAL -->
+  <div class="modal-overlay topic-modal-overlay" id="topic-modal">
+    <div class="modal">
+      <button class="modal-close topic-modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body topic-modal-body">
+        <div class="topic-modal-info">
+          <h2 class="topic-modal-name" id="topic-modal-name"></h2>
+          <p class="topic-modal-topic" id="topic-modal-topic"></p>
+          <p class="topic-modal-time" id="topic-modal-time"></p>
+          <p class="topic-modal-room" id="topic-modal-room"></p>
+          <div class="modal-divider topic-modal-divider" id="topic-modal-divider"></div>
+          <div class="topic-modal-desc" id="topic-modal-desc"></div>
+          <div class="topic-modal-social" id="topic-modal-social"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPEAKER MODAL -->
+  <div class="modal-overlay" id="speaker-modal">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body">
+        <div class="modal-avatar">
+          <div class="modal-avatar-placeholder" id="modal-avatar-placeholder"></div>
+        </div>
+        <div class="modal-info">
+          <h2 class="modal-name" id="modal-name"></h2>
+          <p class="modal-topic" id="modal-topic"></p>
+          <div class="modal-divider"></div>
+          <div class="modal-bio" id="modal-bio"></div>
+          <div class="modal-social">
+            <a class="social-link" href="#" id="modal-twitter" target="_blank" rel="noopener">
+              <span class="social-icon">✦</span> Twitter
+            </a>
+            <a class="social-link" href="#" id="modal-github" target="_blank" rel="noopener">
+              <span class="social-icon">✦</span> GitHub
+            </a>
+            <a class="social-link" href="#" id="modal-website" target="_blank" rel="noopener">
+              <span class="social-icon">✦</span> Website
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
