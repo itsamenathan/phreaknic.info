@@ -207,8 +207,6 @@
     if (lastHashBeforeModal) {
       history.pushState(null, '', lastHashBeforeModal);
       lastHashBeforeModal = '';
-    } else {
-      history.pushState(null, '', '#speakers');
     }
   }
 
@@ -277,10 +275,6 @@
     if (lastHashBeforeTopicModal) {
       history.pushState(null, '', lastHashBeforeTopicModal);
       lastHashBeforeTopicModal = '';
-    } else {
-		// TODO this should
-		console.log("pushing state schedule");
-      history.pushState(null, '', '#schedule');
     }
   }
 
