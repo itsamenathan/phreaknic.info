@@ -210,6 +210,87 @@ body {
   list-style: none;
 }
 
+.sidebar-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.sidebar-logo {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.friends-section {
+  display: none;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.friends-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.friends-sidebar .friends-link {
+  display: flex;
+  justify-content: center;
+}
+
+.friends-sidebar .friends-logo {
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.friends-sidebar .friends-link:hover .friends-logo {
+  opacity: 1;
+}
+
+.friends-link {
+  display: inline-block;
+}
+
+.friends-logo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.friends-link:hover .friends-logo {
+  opacity: 1;
+}
+
+.sidebar-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.sidebar-logo {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.sidebar-link:hover .sidebar-logo {
+  opacity: 1;
+}
+
 .nav-link {
   display: flex;
   align-items: center;
@@ -867,6 +948,18 @@ body {
   .footer-label,
   .timestamp {
     display: none;
+  }
+
+  .friends-section {
+    display: block;
+  }
+
+  .friends-sidebar {
+    display: none;
+  }
+
+  .friends-logo {
+    max-width: 200px;
   }
 }
 
