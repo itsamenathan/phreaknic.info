@@ -13,12 +13,12 @@
   // ===== DATA LOADING =====
   function loadData() {
     return Promise.all([
-      fetch('speakers.json').then(function (res) {
-        if (!res.ok) throw new Error('Failed to load speakers.json: ' + res.status);
+      fetch('api/v1/speakers.json').then(function (res) {
+        if (!res.ok) throw new Error('Failed to load api/v1/speakers.json: ' + res.status);
         return res.json();
       }),
-      fetch('topics.json').then(function (res) {
-        if (!res.ok) throw new Error('Failed to load topics.json: ' + res.status);
+      fetch('api/v1/topics.json').then(function (res) {
+        if (!res.ok) throw new Error('Failed to load api/v1/topics.json: ' + res.status);
         return res.json();
       })
     ]).then(function (results) {
