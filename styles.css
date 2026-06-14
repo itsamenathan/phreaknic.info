@@ -151,6 +151,21 @@ body {
   text-transform: uppercase;
 }
 
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.25;
+}
+
+.event-date {
+  color: var(--cyan);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-shadow: var(--glow-cyan);
+}
+
 .countdown {
   font-size: 1rem;
   color: var(--text-secondary);
@@ -943,6 +958,15 @@ body {
 
   .header-tagline {
     display: none;
+  }
+
+  .event-date {
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+  }
+
+  .countdown {
+    font-size: 0.85rem;
   }
 
   .footer-label,
